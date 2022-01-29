@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-image: url('ClearWeather.jpg');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+h1{
+    font-size: 42pt;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+.main> *{
+    margin-bottom: 20px;
+}
+.input-box{
+    margin-top: 20px;
+    width: 320px;
+    background-color: rgb(255, 255, 255,0.7);
+    border: none;
+    color: rgb(25, 6, 112);
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.input-box:focus{
+    background-color: rgba(255,255,255);
+}
+
+.weather-body{
+    color: rgb(37, 19, 5);
+    display: none;
+    padding: 20px;
+    height: 50vh;
+    width: 300px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255,0.7);
+}
+
+.location-detail{
+    font-weight: bold;
+}
+
+.weather-status{
+    padding: 20px;
+}
+
+.temp{
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 30px;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.min-max,.weather{
+    font-size: 16pt;
+    font-weight: bolder;
+}
+.min-max{
+    margin-top: 50px;
+}
